@@ -15,6 +15,7 @@ body{
     width: 90vw;
     margin: auto;
     border: 3px solid #000000;
+    box-shadow: 1px 1px 7px 7px rgba(186, 31, 17, 0.73) ;
   }
   
   .myshadow {
@@ -31,7 +32,7 @@ body{
     margin: auto;
   }
   
-  .section img { width: 200;  height: 200;
+  .section img { 
     border: 3px dashed #272726;
   }
 .section p {
