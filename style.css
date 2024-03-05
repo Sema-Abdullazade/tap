@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+
+body{
+    background-color: rgb(60, 68, 62);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #747265;
+  }
+  
+  .container {
+    width: 90vw;
+    margin: auto;
+    border: 3px solid #000000;
+  }
+  
+  .myshadow {
+    -webkit-box-shadow: 1px 1px 7px 7px rgba(186, 31, 17, 0.73);
+    box-shadow: 1px 1px 7px 7px rgba(186, 31, 17, 0.73);
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1px auto;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .section img { width: 200;  height: 200;
+    border: 3px dashed #272726;
+  }
+.section p {
+    margin: 5% 7%;
+    font-size: 22px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.15em;
+    line-height: 2.4rem;
+  }
+  
+  .article {
+    width: 75%;
+    margin: 2rem auto;
+  }
+  
+  .article p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: justify;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    line-height: 32px;
+  }
+  
+  .başlıq {
+    color: #efebed;
+    font-size: 36px;
+    font-family: "Exo2", cursive;
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: rgb(201, 105, 105);
+    text-shadow: 4px 4px 47px rgba(255, 16, 16, 0.75),
+      4px 4px 47px rgba(206, 51, 51, 0.75);
+  }
+  
+.section .leonardo {
+    color: white;
+    font-size: 32px;
+    font-family: "Librefranklin", sans-serif;
+    font-weight: 700;
+    text-shadow: 4px 4px 11px rgba(8, 8, 8, 0.945);
+  }
+  .section .mytopimg {
+    margin: 2rem auto 1rem;
+    width: 30vw;
+    height: 80vh;
+  }
+  
+  .vitruvis,
+  .akşamyemeği,
+  .monalisa {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: white;
+    font-size: 32px;
+    font-family: "Cabin", sans-serif;
+    text-shadow: 4px 4px 15px rgba(255, 16, 16, 0.65);
+  }
+  
+
+  .mybottomimg {
+    width: 60vw;
+    margin: 2rem auto 0.5rem;
+  }
+.ikincibaşlıq {
+    color: #7b1212;
+    font-family: "Exo2", sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: 2rem auto 0.5rem;
+    text-shadow: 4px 4px 11px rgba(245, 244, 244, 0.945);
+  }
+.mybottomsection > p {
+    margin: 1.5rem 5rem 4rem 5rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    text-align: justify;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+  }
+.abzas2 {
+  color: white;
+  font-size: 32px;
+  font-family: "Liberfranklin", sans-serif;
+  font-weight: 700;
+  text-shadow: 4px 4px 11px rgba(14, 13, 13, 0.945);
+}
+.sonluq {
+    color: #830a0a;
+    text-decoration: line-through;
+    text-decoration-color: black;
+  }
